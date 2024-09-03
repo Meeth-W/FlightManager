@@ -24,7 +24,3 @@ CREATE TABLE IF NOT EXISTS `flights` (
     `flight_status` VARCHAR(10) NOT NULL DEFAULT 'on_time',
     `available_seats` INT NOT NULL,
 )
-
-CREATE TABLE IF NOT EXISTS `bookings` (
-    
-)
